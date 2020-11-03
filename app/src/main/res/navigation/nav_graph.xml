@@ -18,5 +18,13 @@
         android:id="@+id/dosFragment"
         android:name="com.example.navigationjetpack.fragment.DosFragment"
         android:label="fragment_dos"
-        tools:layout="@layout/fragment_dos" />
+        tools:layout="@layout/fragment_dos" >
+        <argument
+            android:name="dato"
+            app:argType="string"
+            android:defaultValue="desconocido" />
+        <argument
+            android:name="clasePersona"
+            app:argType="com.example.navigationjetpack.model.Persona" />
+    </fragment>
 </navigation>
