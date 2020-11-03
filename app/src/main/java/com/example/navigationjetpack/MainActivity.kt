@@ -6,6 +6,9 @@ import android.os.Bundle
 
 //https://www.youtube.com/watch?v=o1zbjim8ZUc&t=1582s
 //https://www.youtube.com/watch?v=o1zbjim8ZUc&t=1337s
+
+
+
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
